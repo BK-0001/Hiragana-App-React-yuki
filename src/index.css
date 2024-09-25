@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul {
+  list-style: none;
+}
+
+header {
+  height: 10vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 1px 10px -5px rgba(0,0,0,0.5);
+}
+
+main {
+  height: 90vh;
+}
+
+
+body {
+  background-image: url(./assets/background.jpg);
+  background-color: rgba(255, 255, 255, 0.2);
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-position: center;
+}
+
+#quizContainer {
+  grid-template-rows: 1fr 140px;
+}
+
+#check {
+  width: 25vw;
+  height: 25vh;
+  min-width: 290px;
+  min-height: 220px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(168, 224, 174, 0.96)
+}
